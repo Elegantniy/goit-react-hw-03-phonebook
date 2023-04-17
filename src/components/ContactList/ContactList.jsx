@@ -25,6 +25,7 @@ export class ContactList extends Component {
     );
   }
 }
+
 ContactList.propTypes = {
   stateFilter: PropTypes.string,
   contacts: PropTypes.arrayOf(
